@@ -1,4 +1,4 @@
-package com.codedeva.guessinggame;
+package com.codeveda.guessinggame;
 
 import java.util.Random;
 import java.util.Scanner;
