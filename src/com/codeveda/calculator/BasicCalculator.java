@@ -4,6 +4,30 @@ import java.util.Scanner;
 
 public class BasicCalculator 
 {
+	
+	
+	public double add(double a,double b)
+	{
+		return a+b;
+	}
+	public double subtract(double a,double b)
+	{
+		return a-b;
+	}
+	public double multiply(double a,double b)
+	{
+		return a*b;
+	}
+	public double divide(double a,double b)
+	{
+		if(b==0)
+		{
+			System.out.println("Error:: Divison by zero is not allowed.");
+			return Double.NaN;
+		}
+		return a/b;
+	}
+	
 	public static void main(String[] args)
 	{
 		Scanner sc=new Scanner(System.in);
@@ -47,28 +71,5 @@ public class BasicCalculator
 				System.out.println("Invalid operation");
 		}
 		sc.close();
-	}
-
-	public double add(double a,double b)
-	{
-		return a+b;
-	}
-	public double subtract(double a,double b)
-	{
-		return a-b;
-	}
-	public double multiply(double a,double b)
-	{
-		return a*b;
-	}
-	public double divide(double a,double b)
-	{
-		if(b==0)
-		{
-			System.out.println("Error:: Divison by zero is not allowed.");
-			return Double.NaN;
-		}
-		return a/b;
-	}
-	
+	}	
 }
