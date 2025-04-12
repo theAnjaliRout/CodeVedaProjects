@@ -102,7 +102,7 @@ public class EmployeeManagementSystem
 			System.out.println("5.Exit");
 			
 			
-			System.out.println("Choose an Option:");
+			System.out.println("Choose an Option(1-4)::");
 			int choice =sc.nextInt();
 			
 			switch(choice)
