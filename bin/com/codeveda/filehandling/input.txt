@@ -1,0 +1,4 @@
+Hello World! This is a test file.
+This file will be used to count lines and words.
+Let's see how many lines and words it has.
+Each line will be counted, and words will be counted too.
